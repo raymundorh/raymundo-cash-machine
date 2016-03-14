@@ -1,0 +1,88 @@
+
+body {
+ background-image: url("../img/cajero.jpg");
+    background-repeat: no-repeat;
+    }
+    
+    
+#efectivo{
+   
+    display: none;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top:550px;
+    left:150px;
+   
+}
+
+#cantidad{
+   
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top:148px;
+    left:200px;
+   
+}
+
+#boton{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top:255px;
+    left:213px;    
+}
+
+
+#indicador1{
+   
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top:168px;
+    left:20px;
+    vertical-align: central;
+   
+}
+
+#indicador2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:280px;
+    left:20px;    
+}
+
+#retirar{
+    background: blue;
+    color: white;
+    width: 125px;
+    height: 95px;
+    font-size: x-large; 
+ 
+}
+
+#calcular{
+   
+    display: none;
+   
+}
+
+.billetes{
+    width: 80px;
+    height: 150px;
+    
+   
+}
+
+.tdCantidad{
+    text-align: center;
+    font-size: x-large;
+}
