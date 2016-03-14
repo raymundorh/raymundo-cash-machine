@@ -7,6 +7,8 @@ $restante = 0;
      echo "Favor de poner una cantidad numérica";
  }else if($cantidad == 0 ){
      echo "Favor de ingresar la cantidad que quieres retirar";
+ }else if ($cantidad < 0){
+     echo "Favor de ingresar una cantidad positiva ";
  }else if (!fmod($cantidad, 10) == 0 ){
      echo "Solo tenemos billetes en múltiplos de 10, introduce otra cantidad";
  }else{
